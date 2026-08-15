@@ -35,35 +35,35 @@
     <h1 style="font-size:60px;line-height:1.06;letter-spacing:-.02em;margin:0;max-width:22ch">Integrate the checkout in an afternoon</h1>
     <p style="font-size:17px;line-height:1.7;max-width:66ch;margin:26px 0 0;text-wrap:pretty">The existing guide explained the payment product beautifully. It did not explain what a developer had to do on Tuesday, in which order, or how to tell it had worked — so every integration ended in a support ticket. I rewrote it as one task with three steps and a checkpoint the reader can verify alone.</p>
 
-
-  Checkout Button
+    <div class="blueprint" style="display:flex;flex-wrap:wrap;margin:40px 0 44px">
+      <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+      <div style="flex:1;min-width:170px;padding:16px 20px;border-left:1px solid var(--color-divider)"><p class="mono" style="font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--color-accent-700);margin:0 0 8px">Audience</p><p style="font-size:14.5px;line-height:1.55;margin:0">Merchant developers, mid-integration, in a hurry</p></div>
+      <div style="flex:1;min-width:170px;padding:16px 20px;border-left:1px solid var(--color-divider)"><p class="mono" style="font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--color-accent-700);margin:0 0 8px">What I did</p><p style="font-size:14.5px;line-height:1.55;margin:0">Created or updated documentation for clarity and accuracy.</p></div>
+    </div>
+      
+<h2>Checkout Button</h2> 
       
     <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-top:26px">
       <a class="btn btn-primary" href="https://docs.affirm.com/developers/docs/pre-styled-checkout-button" target="_blank" rel="noopener" style="letter-spacing:.04em">Read Checkout Button ↗</a>
     </div>
       
-Set Up Split Capture
+<h2>Set Up Split Capture</h2>
     <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-top:26px">
       <a class="btn btn-primary" href="https://docs.affirm.com/payments/docs/integrate-affirm-split-capture" target="_blank" rel="noopener" style="letter-spacing:.04em">Read Set Up Split Capture ↗</a>
     </div>
       
-Capture Transaction (API Reference)
-    <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-top:26px">
+<h2>Capture Transaction (API Reference)</h2>
+
+      <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-top:26px">
       <a class="btn btn-primary" href="https://docs.affirm.com/developers/reference/capture_transaction" target="_blank" rel="noopener" style="letter-spacing:.04em">Read Capture Transaction ↗</a>
     </div>
       
-HTML Reference: Promotional Messaging 
+<h2>Promotional Messaging (HTML Reference)</h2>
+
     <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-top:26px">
       <a class="btn btn-primary" href="https://docs.affirm.com/developers/docs/html-reference-promotional-messaging" target="_blank" rel="noopener" style="letter-spacing:.04em">Read Promotional Messaging ↗</a>
     </div>
       
-
-    <div class="blueprint" style="display:flex;flex-wrap:wrap;margin:40px 0 44px">
-      <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
-      <div style="flex:1;min-width:170px;padding:16px 20px;border-left:1px solid var(--color-divider)"><p class="mono" style="font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--color-accent-700);margin:0 0 8px">Audience</p><p style="font-size:14.5px;line-height:1.55;margin:0">Merchant developers, mid-integration, in a hurry</p></div>
-      <div style="flex:1;min-width:170px;padding:16px 20px;border-left:1px solid var(--color-divider)"><p class="mono" style="font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--color-accent-700);margin:0 0 8px">Format</p><p style="font-size:14.5px;line-height:1.55;margin:0">4 topics + 1 reference table, Markdown in Git</p></div>
-      <div style="flex:1;min-width:170px;padding:16px 20px;border-left:1px solid var(--color-divider)"><p class="mono" style="font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--color-accent-700);margin:0 0 8px">Constraint</p><p style="font-size:14.5px;line-height:1.55;margin:0">No screenshots — the UI shipped weekly</p></div>
-    </div>
 
     <h2 style="font-size:30px;letter-spacing:-.015em;margin:0 0 12px">What I changed</h2>
     <p style="font-size:17px;line-height:1.7;max-width:66ch;margin:0 0 18px;text-wrap:pretty">I ran the integration myself with a sandbox key and wrote down every place I stalled. All three were ordering problems, not explanation problems: the script had to load before the bundle, the amount had to be in cents, and confirmation had to happen server-side. The concepts moved to one short page nobody has to read to succeed.</p>
