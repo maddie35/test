@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Affirm documentation — Maddie Reardon</title>
+<meta name="description" content="Eleven conceptual pages became one task with three steps and a checkpoint the reader can verify alone.">
+<meta property="og:title" content="Affirm documentation — Maddie Reardon">
+<meta property="og:description" content="Eleven conceptual pages became one task with three steps and a checkpoint the reader can verify alone.">
+<meta property="og:type" content="article">
+<link rel="stylesheet" href="assets/styles.css"><link rel="preconnect" href="https://fonts.gstatic.com"><style>body{margin:0}a{text-decoration:none}a:hover{color:var(--color-accent-700)}.mono{font-family:ui-monospace,Menlo,Consolas,monospace}.btn,.tag{white-space:nowrap}</style>
+</head>
+<body>
+<div style="min-height:100vh;background:var(--color-bg);color:var(--color-text)">
+
+  <header style="border-bottom:1px solid var(--color-divider);position:sticky;top:0;background:var(--color-bg);z-index:5">
+    <div style="max-width:1180px;margin:0 auto;padding:20px 56px;display:flex;align-items:center;justify-content:space-between;gap:24px">
+      <a href="index.html" style="display:flex;flex-direction:column;gap:5px;color:var(--color-text)">
+        <span style="font-family:var(--font-heading);font-weight:600;font-size:19px;letter-spacing:.01em;line-height:1;text-transform:uppercase">Maddie Reardon</span>
+        <span class="mono" style="font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:color-mix(in srgb,var(--color-text) 55%,transparent)">Senior technical writer</span>
+      </a>
+      <nav style="display:flex;align-items:center;gap:22px;font-family:var(--font-heading);font-size:15px;letter-spacing:.03em;text-transform:uppercase">
+        <a href="samples.html" style="color:var(--color-accent)">Samples</a>
+        <a href="index.html#how-i-work" style="color:var(--color-text)">Method</a>
+        <a href="about.html" style="color:var(--color-text)">About</a>
+        <a class="btn btn-primary" href="request-access.html" style="letter-spacing:.04em">Get in touch</a>
+      </nav>
+    </div>
+  </header>
+
+  <div style="max-width:1180px;margin:0 auto;padding:48px 56px 64px">
+    <div style="max-width:900px">
+    <a class="mono" href="samples.html" style="font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:color-mix(in srgb,var(--color-accent-900) 55%,transparent);display:inline-block;margin-bottom:22px">← Back to samples</a>
+    <p class="mono" style="font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--color-accent-700);margin:0 0 16px">Sample 01 · product &amp; API reference</p>
+    <h1 style="font-size:60px;line-height:1.06;letter-spacing:-.02em;margin:0;max-width:22ch">Integrate the checkout in an afternoon</h1>
+    <p style="font-size:17px;line-height:1.7;max-width:66ch;margin:26px 0 0;text-wrap:pretty">The existing guide explained the payment product beautifully. It did not explain what a developer had to do on Tuesday, in which order, or how to tell it had worked — so every integration ended in a support ticket. I rewrote it as one task with three steps and a checkpoint the reader can verify alone.</p>
+
+    <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-top:26px">
+      <a class="btn btn-primary" href="https://maddie35.github.io/portfolio/TECH-DOC" target="_blank" rel="noopener" style="letter-spacing:.04em">Read the full sample ↗</a>
+    </div>
+
+    <div class="blueprint" style="display:flex;flex-wrap:wrap;margin:40px 0 44px">
+      <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+      <div style="flex:1;min-width:170px;padding:16px 20px"><p class="mono" style="font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--color-accent-700);margin:0 0 8px">My role</p><p style="font-size:14.5px;line-height:1.55;margin:0">Sole writer — research, IA, drafting, review with engineering</p></div>
+      <div style="flex:1;min-width:170px;padding:16px 20px;border-left:1px solid var(--color-divider)"><p class="mono" style="font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--color-accent-700);margin:0 0 8px">Audience</p><p style="font-size:14.5px;line-height:1.55;margin:0">Merchant developers, mid-integration, in a hurry</p></div>
+      <div style="flex:1;min-width:170px;padding:16px 20px;border-left:1px solid var(--color-divider)"><p class="mono" style="font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--color-accent-700);margin:0 0 8px">Format</p><p style="font-size:14.5px;line-height:1.55;margin:0">4 topics + 1 reference table, Markdown in Git</p></div>
+      <div style="flex:1;min-width:170px;padding:16px 20px;border-left:1px solid var(--color-divider)"><p class="mono" style="font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--color-accent-700);margin:0 0 8px">Constraint</p><p style="font-size:14.5px;line-height:1.55;margin:0">No screenshots — the UI shipped weekly</p></div>
+    </div>
+
+    <h2 style="font-size:30px;letter-spacing:-.015em;margin:0 0 12px">What I changed</h2>
+    <p style="font-size:17px;line-height:1.7;max-width:66ch;margin:0 0 18px;text-wrap:pretty">I ran the integration myself with a sandbox key and wrote down every place I stalled. All three were ordering problems, not explanation problems: the script had to load before the bundle, the amount had to be in cents, and confirmation had to happen server-side. The concepts moved to one short page nobody has to read to succeed.</p>
+
+    <p class="mono" style="font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--color-accent-700);margin:36px 0 14px">Excerpt — the rewritten topic</p>
+    <div class="blueprint" style="padding:32px 34px;background:color-mix(in srgb,#ffffff 60%,transparent)">
+      <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+      <h3 style="font-size:28px;letter-spacing:-.015em;margin:0 0 14px">Add the payment method to your checkout</h3>
+      <p style="font-size:16px;line-height:1.7;margin:0 0 22px;max-width:62ch">Before you start you need a sandbox key and a checkout page you can deploy. The whole task takes about forty minutes; step 3 is the only one that needs a back-end change.</p>
+      <ol style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:20px">
+        <li style="display:grid;grid-template-columns:32px 1fr;gap:14px"><span class="mono" style="font-size:11px;letter-spacing:.14em;color:var(--color-accent-700);padding-top:5px">01</span><span><span style="display:block;font-size:16px;line-height:1.6;font-weight:500">Load the script on your checkout page.</span><span style="display:block;font-size:15.5px;line-height:1.65;color:color-mix(in srgb,var(--color-accent-900) 80%,transparent);margin-top:4px">Place it before your own bundle so the button can register itself.</span><code class="mono" style="display:inline-block;margin-top:10px;padding:8px 12px;font-size:13px;background:color-mix(in srgb,var(--color-accent-900) 7%,transparent);border:1px solid var(--color-divider)">&lt;script src="https://cdn.example.com/v2/checkout.js"&gt;&lt;/script&gt;</code></span></li>
+        <li style="display:grid;grid-template-columns:32px 1fr;gap:14px"><span class="mono" style="font-size:11px;letter-spacing:.14em;color:var(--color-accent-700);padding-top:5px">02</span><span><span style="display:block;font-size:16px;line-height:1.6;font-weight:500">Render the button where the total appears.</span><span style="display:block;font-size:15.5px;line-height:1.65;color:color-mix(in srgb,var(--color-accent-900) 80%,transparent);margin-top:4px">Pass the amount in cents. If the total can change without a page load, call <code class="mono" style="font-size:13px;padding:1px 5px;background:color-mix(in srgb,var(--color-accent-900) 7%,transparent)">refresh()</code> after each change.</span></span></li>
+        <li style="display:grid;grid-template-columns:32px 1fr;gap:14px"><span class="mono" style="font-size:11px;letter-spacing:.14em;color:var(--color-accent-700);padding-top:5px">03</span><span><span style="display:block;font-size:16px;line-height:1.6;font-weight:500">Confirm the charge from your server.</span><span style="display:block;font-size:15.5px;line-height:1.65;color:color-mix(in srgb,var(--color-accent-900) 80%,transparent);margin-top:4px">The browser never confirms a payment. Send the token to your back end, confirm it there, then show your own success page.</span></span></li>
+      </ol>
+      <div style="display:flex;gap:14px;margin-top:26px;padding:16px 18px;border-left:3px solid var(--color-accent);background:color-mix(in srgb,var(--color-accent) 10%,transparent)">
+        <span class="mono" style="font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--color-accent-800);white-space:nowrap;padding-top:3px">Check</span>
+        <span style="font-size:15px;line-height:1.6">A test order appears in the sandbox dashboard within ten seconds. If it doesn't, the token was confirmed in the browser — see step 3.</span>
+      </div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:40px;margin-top:44px">
+      <div><p class="mono" style="font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--color-accent-700);margin:0 0 12px">Result</p><p style="font-size:15.5px;line-height:1.7;margin:0">Eleven pages became four. Support stopped answering the same three questions, and the field team started sending the page instead of explaining it.</p></div>
+      <div><p class="mono" style="font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--color-accent-700);margin:0 0 12px">What I'd do next</p><p style="font-size:15.5px;line-height:1.7;margin:0">Instrument the checkpoint. If readers leave at step 3, that's a product problem the documentation is quietly absorbing.</p></div>
+    </div>
+
+    <div class="blueprint" style="display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between;padding:20px 22px;margin-top:44px">
+      <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+      <div>
+        <p class="mono" style="font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--color-accent-700);margin:0 0 6px">Read the whole thing</p>
+        <p style="font-size:15.5px;line-height:1.6;margin:0;max-width:52ch">The excerpt above is one topic. The full sample is on the portfolio page.</p>
+      </div>
+      <a class="btn btn-primary" href="https://maddie35.github.io/portfolio/TECH-DOC" target="_blank" rel="noopener" style="letter-spacing:.04em">Read the full sample ↗</a>
+    </div>
+
+    <div style="display:flex;justify-content:space-between;gap:20px;align-items:center;margin-top:36px;padding-top:20px;border-top:1px solid var(--color-divider)">
+      <a class="mono" href="samples.html" style="font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--color-text)">← All samples</a>
+      <a class="mono" href="sample-black-holes.html" style="font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--color-text)">Next: Intro to black holes →</a>
+    </div>
+    </div>
+  </div>
+
+  <footer style="border-top:1px solid var(--color-divider)">
+    <div style="max-width:1180px;margin:0 auto;padding:24px 56px;display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap">
+      <p class="mono" style="font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:color-mix(in srgb,var(--color-text) 55%,transparent);margin:0">Maddie Reardon · Technical writing portfolio</p>
+      <a class="mono" href="index.html" style="font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--color-text)">Home</a>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
